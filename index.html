@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exceptional Health and Human Services</title>
+    <meta name="description" content="Compassionate, Medicaid-approved Homemaker and Companion Services for Miami Lakes and surrounding families.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">Exceptional<br>Health & Human Services</span>
+            </a>
+            
+            <div class="nav-controls">
+                <!-- Language Toggle -->
+                <div class="lang-toggle-wrap">
+                    <button id="lang-toggle" class="lang-btn" aria-label="Toggle Language">
+                        <span class="lang-text" data-current="en">EN</span> | <span>ES</span>
+                    </button>
+                </div>
+                
+                <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            
+            <nav id="primary-navigation" class="primary-navigation">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#about" class="nav-link" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="#services" class="nav-link" data-i18n="nav_services">Services</a></li>
+                    <li><a href="#why-choose-us" class="nav-link" data-i18n="nav_why">Why Choose Us</a></li>
+                    <li><a href="#contact" class="nav-link btn btn-outline btn-small" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background">
+                <div class="overlay"></div>
+                <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=2696&auto=format&fit=crop" alt="Caregiver holding hands with senior" class="hero-img">
+            </div>
+            <div class="container hero-content">
+                <div class="hero-text-box reveal-up">
+                    <h1 class="headline" data-i18n="hero_headline">Compassionate Care in the Comfort of Your Home</h1>
+                    <p class="subheadline" data-i18n="hero_subheadline">Medicaid-approved Homemaker and Companion Services for Miami Lakes and surrounding families.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary" data-i18n="btn_consultation">Schedule a Consultation</a>
+                        <a href="tel:7867156243" class="btn btn-secondary" data-i18n="btn_call_today">Call Us Today</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Intro Section -->
+        <section class="intro section-padding">
+            <div class="container intro-container">
+                <div class="intro-text reveal-up">
+                    <p class="lead-text" data-i18n="intro_1">At Exceptional Health and Human Services, we provide compassionate, dependable in-home support for individuals and families who need extra help with daily living.</p>
+                    <p data-i18n="intro_2">Our goal is to make life easier, safer, and more comfortable by offering Medicaid-approved Homemaker and Companion Services, along with affordable private pay home care options.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview -->
+        <section id="services-preview" class="services-preview section-padding bg-sage-light">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="eyebrow" data-i18n="eyebrow_how_we_help">How We Help</span>
+                    <h2 data-i18n="h2_care_options">Our Care Options</h2>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-card reveal-up stagger-1">
+                        <div class="card-icon">🧹</div>
+                        <h3 data-i18n="srv_homemaker">Homemaker Services</h3>
+                        <p data-i18n="srv_homemaker_desc">Support with everyday household tasks to help maintain a clean, comfortable home.</p>
+                    </div>
+                    
+                    <div class="service-card reveal-up stagger-2">
+                        <div class="card-icon">🤝</div>
+                        <h3 data-i18n="srv_companion">Companion Services</h3>
+                        <p data-i18n="srv_companion_desc">Friendly, caring support that encourages connection, comfort, and daily engagement.</p>
+                    </div>
+                    
+                    <div class="service-card reveal-up stagger-3">
+                        <div class="card-icon">🤎</div>
+                        <h3 data-i18n="srv_private">Private Pay Options</h3>
+                        <p data-i18n="srv_private_desc">Affordable home care solutions for families who need support outside of Medicaid coverage.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Families Choose Us Preview -->
+        <section class="why-preview section-padding">
+            <div class="container why-preview-container">
+                <div class="why-image reveal-right">
+                    <img src="https://images.unsplash.com/photo-1581579205556-2db1307b2756?q=80&w=2670&auto=format&fit=crop" alt="Smiling family support moments" class="rounded-img shadow-lg">
+                    <div class="experience-badge">
+                        <span class="year">2022</span>
+                        <span class="text" data-i18n="badge_established">Established</span>
+                    </div>
+                </div>
+                
+                <div class="why-text reveal-left">
+                    <span class="eyebrow" data-i18n="eyebrow_trust">Trust & Reliability</span>
+                    <h2 data-i18n="h2_why_families">Why Families Choose Us</h2>
+                    <ul class="feature-list">
+                        <li>
+                            <span class="check">✓</span>
+                            <span data-i18n="feat_miami">Based in Miami Lakes</span>
+                        </li>
+                        <li>
+                            <span class="check">✓</span>
+                            <span data-i18n="feat_medicaid">Medicaid-approved services</span>
+                        </li>
+                        <li>
+                            <span class="check">✓</span>
+                            <span data-i18n="feat_private">Affordable private pay options</span>
+                        </li>
+                        <li>
+                            <span class="check">✓</span>
+                            <span data-i18n="feat_personal">Personalized, family-centered care</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-banner">
+            <div class="container text-center reveal-up">
+                <h2 data-i18n="cta_need_care">Need compassionate home care for yourself or a loved one?</h2>
+                <p data-i18n="cta_contact_today">Contact Exceptional Health and Human Services today to schedule a consultation.</p>
+                <a href="#contact" class="btn btn-primary mt-4" data-i18n="btn_consultation">Schedule a Consultation</a>
+            </div>
+        </section>
+
+        <!-- About Us -->
+        <section id="about" class="about section-padding">
+            <div class="container about-container">
+                <div class="about-text reveal-up">
+                    <span class="eyebrow" data-i18n="eyebrow_our_story">Our Story</span>
+                    <h2 data-i18n="nav_about">About Exceptional Health and Human Services</h2>
+                    <p data-i18n="about_p1">Exceptional Health and Human Services was founded in 2022 with a mission to provide compassionate, reliable home care services that help individuals remain safe, comfortable, and supported in their own homes.</p>
+                    <p data-i18n="about_p2">We proudly serve Miami Lakes and surrounding families with Medicaid-approved Homemaker and Companion Services, as well as affordable private pay care options. We understand that every client has unique needs, which is why we focus on personalized support, dignity, respect, and dependable care.</p>
+                    <p class="highlight-text" data-i18n="about_p3">At Exceptional Health and Human Services, we believe care should feel personal. We are committed to treating every client like family and helping families feel confident in the support their loved ones receive.</p>
+                </div>
+                <div class="about-image-grid reveal-up stagger-2">
+                    <img src="https://images.unsplash.com/photo-1516843431604-037166e74b39?q=80&w=2574&auto=format&fit=crop" alt="Caregiver helping senior in home" class="grid-img img-1">
+                    <img src="https://images.unsplash.com/photo-1502444330042-d1a1ddf9d779?q=80&w=2670&auto=format&fit=crop" alt="Comfortable home setting" class="grid-img img-2">
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Services -->
+        <section id="services" class="services-detailed section-padding bg-beige">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="eyebrow" data-i18n="eyebrow_what_we_do">What We Do</span>
+                    <h2 data-i18n="nav_services">Our Services</h2>
+                    <p class="max-w-prose mx-auto" data-i18n="services_intro">Exceptional Health and Human Services offers non-medical in-home support designed to make everyday life easier and more comfortable.</p>
+                </div>
+                
+                <div class="service-details">
+                    <!-- Homemaker -->
+                    <div class="service-row reveal-up">
+                        <div class="service-info">
+                            <h3 data-i18n="srv_homemaker">Homemaker Services</h3>
+                            <p data-i18n="srv_homemaker_full_desc">Our Homemaker Services help clients maintain a safe, clean, and organized home environment. Services may include:</p>
+                            <ul class="service-list">
+                                <li data-i18n="task_housekeeping">Light housekeeping</li>
+                                <li data-i18n="task_meals">Meal preparation</li>
+                                <li data-i18n="task_grocery">Grocery shopping</li>
+                                <li data-i18n="task_laundry">Laundry</li>
+                            </ul>
+                        </div>
+                        <div class="service-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=2670&auto=format&fit=crop" alt="Kitchen cleaning preparation" class="rounded-img">
+                        </div>
+                    </div>
+                    
+                    <!-- Companion -->
+                    <div class="service-row reverse reveal-up">
+                        <div class="service-info">
+                            <h3 data-i18n="srv_companion">Companion Services</h3>
+                            <p data-i18n="srv_companion_full_desc">Our Companion Services provide emotional support and meaningful social interaction to improve quality of life. Services may include:</p>
+                            <ul class="service-list">
+                                <li data-i18n="task_emotional">Emotional support</li>
+                                <li data-i18n="task_social">Social interaction</li>
+                                <li data-i18n="task_appointments">Assistance with appointments</li>
+                                <li data-i18n="task_hobbies">Support with hobbies and daily routines</li>
+                            </ul>
+                        </div>
+                        <div class="service-img-wrap">
+                            <img src="https://images.unsplash.com/photo-1529156069894-44ac84e5482e?q=80&w=2670&auto=format&fit=crop" alt="Seniors playing game, companion" class="rounded-img">
+                        </div>
+                    </div>
+                    
+                    <!-- Private Pay -->
+                    <div class="service-row reveal-up">
+                        <div class="service-info">
+                            <h3 data-i18n="srv_private_full">Private Pay Home Care Options</h3>
+                            <p data-i18n="srv_private_full_desc">For families who may not qualify for Medicaid, we offer affordable private pay home care options. These services provide dependable, flexible support tailored to the needs of each client and family.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Secondary CTA -->
+        <section class="cta-banner alt">
+            <div class="container text-center reveal-up">
+                <h2 data-i18n="cta_not_sure">Not sure which care option is right for your family?</h2>
+                <p data-i18n="cta_call_learn">Call us today to learn more about our services.</p>
+                <a href="tel:7867156243" class="btn btn-secondary mt-4" data-i18n="btn_call_num">Call 786-715-6243</a>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Detailed -->
+        <section id="why-choose-us" class="why-detailed section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="eyebrow" data-i18n="eyebrow_commitment">Our Commitment</span>
+                    <h2 data-i18n="nav_why_full">Why Choose Exceptional Health and Human Services</h2>
+                    <p class="max-w-prose mx-auto" data-i18n="why_intro">Choosing the right home care provider is an important decision. At Exceptional Health and Human Services, we are committed to providing care that families can trust.</p>
+                </div>
+                
+                <div class="reasons-grid">
+                    <div class="reason-card reveal-up stagger-1">
+                        <h4 data-i18n="reason1_title">Local Care You Can Trust</h4>
+                        <p data-i18n="reason1_desc">We are proudly based in Miami Lakes and serve local families with compassion and professionalism.</p>
+                    </div>
+                    <div class="reason-card reveal-up stagger-2">
+                        <h4 data-i18n="reason2_title">Established and Dependable</h4>
+                        <p data-i18n="reason2_desc">Founded in 2022, our company is committed to delivering reliable service and quality support.</p>
+                    </div>
+                    <div class="reason-card reveal-up stagger-3">
+                        <h4 data-i18n="reason3_title">Personalized Attention</h4>
+                        <p data-i18n="reason3_desc">We believe every client deserves care that is respectful, compassionate, and tailored to their individual needs.</p>
+                    </div>
+                    <div class="reason-card reveal-up stagger-4">
+                        <h4 data-i18n="reason4_title">Flexible Care Options</h4>
+                        <p data-i18n="reason4_desc">We offer both Medicaid-approved services and affordable private pay options to help more families access the support they need.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding bg-sage-light">
+            <div class="container contact-container">
+                <div class="contact-info reveal-right">
+                    <span class="eyebrow" data-i18n="eyebrow_get_in_touch">Get in Touch</span>
+                    <h2 data-i18n="nav_contact">Contact Us</h2>
+                    <p data-i18n="contact_intro">We are here to help you learn more about our home care services and discuss the best support options for your loved one.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="icon">📍</span>
+                            <div>
+                                <strong>Exceptional Health and Human Services</strong><br>
+                                5729 NW 151 Street, Suite E<br>
+                                Miami Lakes, FL 33014
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="icon">📞</span>
+                            <div>
+                                <strong data-i18n="contact_phone_lbl">Phone:</strong><br>
+                                <a href="tel:7867156243">786-715-6243</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-cta">
+                        <p><strong data-i18n="contact_call_today">Call us today:</strong> <a href="tel:7867156243" class="text-green-deep">786-715-6243</a></p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper reveal-left">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="fullName" data-i18n="form_name">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group half">
+                                <label for="phone" data-i18n="form_phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group half">
+                                <label for="email" data-i18n="form_email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="servicesNeeded" data-i18n="form_services_needed">Services Needed</label>
+                            <select id="servicesNeeded" name="servicesNeeded">
+                                <option value="" disabled selected data-i18n="form_select">Select an option</option>
+                                <option value="homemaker" data-i18n="srv_homemaker">Homemaker Services</option>
+                                <option value="companion" data-i18n="srv_companion">Companion Services</option>
+                                <option value="private-pay" data-i18n="srv_private">Private Pay Home Care</option>
+                                <option value="unsure" data-i18n="form_not_sure">Not Sure / Consultation Needed</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group radio-group">
+                            <label data-i18n="form_method">Preferred Contact Method</label>
+                            <div class="radio-options">
+                                <label class="radio-label">
+                                    <input type="radio" name="contactMethod" value="phone" checked>
+                                    <span class="radio-custom"></span> <span data-i18n="form_phone_lbl">Phone</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="contactMethod" value="email">
+                                    <span class="radio-custom"></span> <span data-i18n="form_email_lbl">Email</span>
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" data-i18n="form_msg">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary submit-btn" data-i18n="btn_submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3 class="footer-logo">Exceptional Health & Human Services</h3>
+                <p data-i18n="footer_providing">Providing Medicaid-approved Homemaker and Companion Services and affordable private pay home care options.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4 data-i18n="footer_links">Quick Links</h4>
+                <ul>
+                    <li><a href="#home" data-i18n="nav_home">Home</a></li>
+                    <li><a href="#about" data-i18n="nav_about">About Us</a></li>
+                    <li><a href="#services" data-i18n="nav_services">Services</a></li>
+                    <li><a href="#why-choose-us" data-i18n="nav_why">Why Choose Us</a></li>
+                    <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4 data-i18n="footer_contact_info">Contact Info</h4>
+                <p>5729 NW 151 Street, Suite E<br>Miami Lakes, FL 33014</p>
+                <p><a href="tel:7867156243">786-715-6243</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="currentYear"></span> Exceptional Health and Human Services. <span data-i18n="footer_rights">All rights reserved.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
